@@ -1,0 +1,31 @@
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="2"
+    tools:context="com.example.ehar.imageloader.MainFragment">
+
+    <ImageButton
+        android:id="@+id/i0"
+        style="@style/image_style"
+        android:src="@drawable/danubelilies"
+        />
+    <ImageButton
+        android:id="@+id/i1"
+        style="@style/image_style"
+        android:src="@drawable/astronaut"
+        />
+    <ImageButton
+        android:id="@+id/i2"
+        style="@style/image_style"
+        android:src="@drawable/chipmunk_proposal"
+        />
+    <ImageButton
+        android:id="@+id/i3"
+        style="@style/image_style"
+        android:src="@drawable/dragonfly"
+        />
+
+</GridLayout>
